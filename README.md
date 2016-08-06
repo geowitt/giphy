@@ -1,1 +1,1 @@
-# giphy reade me
+# giphy read me
