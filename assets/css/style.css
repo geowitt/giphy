@@ -1,0 +1,110 @@
+
+body {
+    background: url("../images/nintendo8bit.jpg") no-repeat center center fixed;
+    font-size: 20px;
+    line-height: 36px;
+    font-family: sans-serif;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+h2 {
+    padding: 20px;
+    color: whitesmoke;
+}
+
+h3 {
+    padding: 20px;
+    color: whitesmoke;
+}
+
+#display {
+    padding: 5px;
+    color: whitesmoke;
+}
+
+.wrapper {
+	margin: 0 auto;
+	max-width: 960px;
+	clear: both;
+}
+
+.push {
+    height: 100px;
+    clear: both;
+}
+
+.container {
+	width: 100%;
+	max-width: 960px;
+	margin: 0 auto;
+	clear: both;
+}
+
+header {
+	text-align: center;
+}
+
+.button {
+    margin: 10px;
+    border: 2px solid black;
+    height: 30px;
+    font-size: 16px;
+}
+
+#addButton{
+    margin: 10px;
+    border: 2px solid black;
+    height: 30px;
+    font-size: 16px;
+}
+
+#buttons {
+    float: left;
+}
+
+#button-form {
+    float: right;
+    clear: left;
+}
+
+.image-holder {
+    float: left;
+    margin: 0 auto;
+    height: 225px;
+    width: 250px;
+}
+
+.image p {
+    color: grey;
+    height: auto;
+    width: auto;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+   /*Footer*/
+
+footer {
+    position: fixed;
+    width: 100%;
+    padding: 5px 0;
+    border-top: 8px white;
+    clear: both;
+    text-align: center;
+    background-color: black;
+    height: 3.5em;
+    width: 100%;
+    z-index: 3;
+    bottom: 0;
+}
+
+#copyright {
+    color: white;
+    text-align: center;
+    width: 100%;
+    font-size: 20px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
